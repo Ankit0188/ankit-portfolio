@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+.text-primary {
+  color: rgb(253, 110, 10);
+}
+/* header and navigation styles */
+.nav-title {
+  font-weight: 800;
+  font-size: 50px;
+}
+
+/* nav tags */
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2px;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+}
+nav li {
+  list-style: none;
+  margin-left: 20px;
+}
+/* nav button */
+.btn-primary {
+  /* button font style */
+  color: var(--white-color, #fff);
+  font-weight: 700;
+  font-size: 20px;
+  border: 0;
+  padding: 17px 34px;
+  line-height: normal;
+  font-family: open sans-serif;
+  /* button style */
+  border-radius: 10px;
+  background: #fd6e0a;
+  height: 60px;
+}
+.header {
+  background: #fff8f3;
+  background-image: url("../images/header_bg.png"),
+    url("../images/developer.png");
+  background-position-x: center;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  background-position: bottom right 1%, left;
+  background-size: contain;
+}
+/* Banner styles */
+.banner {
+  margin: 0px 200px;
+  align-items: center;
+  display: flex;
+}
+.banner-title {
+  font-weight: 550;
+  font-size: 80px;
+}
+.banner-subtitle {
+  font-weight: 400;
+  font-size: 40px;
+  margin-bottom: 12px;
+}
+.banner-description {
+  color: #757575;
+  font-size: 18px;
+  margin-bottom: 20px;
+  padding: 2px 2px;
+}
+.btn-contact {
+  width: 180px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  border: 1px solid #fd6e0a;
+  color: #fd6e0a;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 20px;
+}
+.ankit {
+  width: 698pxpx;
+  height: 349px;
+  flex-shrink: 0;
+  border-radius: 20%;
+  margin-left: 201px;
+  border-image: fill;
+  margin-bottom: 10px;
+}
+/* main section */
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+/* about section styles */
+.about {
+  margin-top: 130px;
+  background-color: #fff8f3;
+  border-radius: 10px;
+  padding: 130px 150px;
+  text-align: center;
+}
+.section-title {
+  margin-bottom: 30px;
+  font-weight: 35px;
+}
+.section-description {
+  color: #757575;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+.about-info-container {
+  display: flex;
+  justify-content: space-between;
+}
+.info-title {
+  font-size: 20px;
+  color: #757575;
+}
+.info-description {
+  font-weight: 700;
+  font-size: 20px;
+  color: #474747;
+}
