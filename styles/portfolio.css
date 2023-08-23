@@ -92,7 +92,7 @@ nav li {
   height: 350px;
   flex-shrink: 0;
   border-radius: 20%;
-  margin-left: 201px;
+  margin-left: 164px;
   border-image: round;
   margin-bottom: 10px;
 }
@@ -123,9 +123,9 @@ section {
 }
 .about-info-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
-.info-title {
+.about .info-title {
   font-size: 20px;
   color: #757575;
 }
